@@ -1,7 +1,8 @@
-user_num=int(input("Enter a number:"))
-looped_times=0
+number1=int(input("Enter a number:"))
+x=1
 total=0
 
-while looped_times<user_num:
-    print(looped_times)
-    looped_times=looped_times+1
+while 1<number1+1:
+    total+=x
+    x+=1
+print(total)
